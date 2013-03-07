@@ -4,7 +4,7 @@
                 <div class="navbar">
                     <div class="navbar-inner">
                       <div class="container">
-                            <a class="brand" href="<?php echo CController::createUrl('/'); ?>">Comprotel <span class="slogan">CRM</span></a>
+                            <a class="brand" href="<?php echo CController::createUrl('/'); ?>">Agenda M&eacute;dica <span class="slogan">SM Digital</span></a>
                       </div>
                     </div><!-- /navbar-inner -->
                   </div><!-- /navbar -->

@@ -589,9 +589,10 @@ $(document).ready(function() {
     //------------- Time entry (picker) -------------//
 	$('.timepicker').timeEntry({
 		show24Hours: true,
+		showSeconds: true,
 		spinnerImage: ''
 	});
-	$('.timepicker').timeEntry('setTime', '00:00')
+	$('.timepicker').timeEntry('setTime', '00:00:00');
 
 	//------------- Select plugin -------------//
 	/*$("#select1").select2();*/

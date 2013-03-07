@@ -17,6 +17,7 @@
 
 	function editar(request){
 		$("#frm<?php echo $model;?>").populate(request);
+		$(".switch").iButton("repaint");
 		$('#listaData').hide();
 		$('#formuData').fadeIn('slow');
 	}

@@ -267,6 +267,7 @@ class FormularioModule extends CWebModule
 		}
 		
 		// Inicio del contenedor de las filas
+		$html = '';
 		if($type != 'hidden'){
 			$html = CHtml::tag(Yii::app()->getModule('formulario')->formEnclosureRowTag, array('class'=>Yii::app()->getModule('formulario')->formRowCssClass), false, false);
 			if(Yii::app()->getModule('formulario')->formEnclosureSubRowTag != ''){
@@ -278,7 +279,7 @@ class FormularioModule extends CWebModule
 		$html .= !is_null(Yii::app()->getModule('formulario')->formEnclosureFieldTag) ? CHtml::tag(Yii::app()->getModule('formulario')->formEnclosureFieldTag, array('class'=>Yii::app()->getModule('formulario')->formEnclosureFieldTagCssClass), false, false) : '';
 		
 		// Definici�n del label siempre y cuando
-		$exepciones = array('hidden', 'defaultbuttons', 'submitbutton', 'ajaxsubmitbutton', 'cancelbutton');
+		$exepciones = array('hidden', 'defaultbuttons', 'submitbutton', 'ajaxsubmitbutton', 'htmlbutton', 'cancelbutton');
 		$html .= !in_array($type, $exepciones) ? self::$_form->labelEx($model, $field, array('class'=>Yii::app()->getModule('formulario')->formLabelCssClass)) : '';
 		
 		// Definici�n del texto de ayuda
@@ -439,7 +440,12 @@ class FormularioModule extends CWebModule
         		break;
         		
         	case 'submitbutton':
-        		$html .= CHtml::htmlButton($submitLabel, array('id'=>$field.'_submit', 'class'=>Yii::app()->getModule('formulario')->formSubmitCssClass . $fieldClass, 'type'=>'submit'));
+        	case 'htmlbutton':
+        		if($type == 'submitbutton')
+        			$tipo = 'submit';
+        		else
+        			$tipo = 'button';
+        		$html .= CHtml::htmlButton($submitLabel, array('id'=>$field.'_submit', 'class'=>Yii::app()->getModule('formulario')->formSubmitCssClass . $fieldClass, 'type'=>$tipo));
         		break;
         		
         	case 'raw':

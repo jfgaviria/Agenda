@@ -1,0 +1,1309 @@
+2013/03/07 14:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar2.jpeg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar2....')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar2.jpeg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/escritorio
+---
+2013/03/07 14:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/escritorio
+---
+2013/03/07 14:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar3.jpeg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar3....')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar3.jpeg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/escritorio
+---
+2013/03/07 14:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar3.jpeg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar3....')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar3.jpeg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/escritorio
+---
+2013/03/07 14:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/escritorio
+---
+2013/03/07 14:01:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar2.jpeg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar2....')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar2.jpeg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/escritorio
+---
+2013/03/07 14:02:35 [error] [php] Undefined variable: html (/Library/WebServer/Documents/agenda/agenda/citas/protected/modules/formulario/FormularioModule.php:278)
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(96): MedicosController->renderInternal()
+#1 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(870): MedicosController->renderFile()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/index.php(19): MedicosController->renderPartial()
+#3 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(127): require()
+#4 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(96): MedicosController->renderInternal()
+#5 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(870): MedicosController->renderFile()
+#6 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(783): MedicosController->renderPartial()
+#7 /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php(89): MedicosController->render()
+#8 /Library/WebServer/Documents/agenda/agenda/framework/web/actions/CInlineAction.php(50): MedicosController->actionIndex()
+#9 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(309): CInlineAction->runWithParams()
+#10 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilterChain.php(134): MedicosController->runAction()
+#11 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#12 /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php(36): RightsFilter->filter()
+#13 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CInlineFilter.php(59): MedicosController->filterRights()
+#14 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#15 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(292): CFilterChain->run()
+#16 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(266): MedicosController->runActionWithFilters()
+#17 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(283): MedicosController->run()
+#18 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#19 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#20 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CWebApplication->run()
+REQUEST_URI=/agenda/agenda/citas/index.php/Medicos
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/formulario/FormularioModule.php (278)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/_form.php (25)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/index.php (19)
+2013/03/07 14:04:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:05:23 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (60)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 14:07:21 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (60)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 14:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:22:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:44:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:44:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:46:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Especialidades
+---
+2013/03/07 14:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:51:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:54:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:54:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:55:07 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 14:55:33 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 14:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:58:24 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 14:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:58:54 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 14:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 14:59:04 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 15:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:04:39 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 15:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:05:13 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (60)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 15:05:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:05:24 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (112)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 15:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:13:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:15:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:36:49 [error] [php] Undefined variable: modelE (/Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/_especialidades.php:17)
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(870): MedicosController->renderFile()
+#1 /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/index.php(25): MedicosController->renderPartial()
+#2 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(127): require()
+#3 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(96): MedicosController->renderInternal()
+#4 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(870): MedicosController->renderFile()
+#5 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(783): MedicosController->renderPartial()
+#6 /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php(97): MedicosController->render()
+#7 /Library/WebServer/Documents/agenda/agenda/framework/web/actions/CInlineAction.php(50): MedicosController->actionIndex()
+#8 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilterChain.php(134): MedicosController->runAction()
+#10 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php(36): RightsFilter->filter()
+#12 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CInlineFilter.php(59): MedicosController->filterRights()
+#13 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#14 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(292): CFilterChain->run()
+#15 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(266): MedicosController->runActionWithFilters()
+#16 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(283): MedicosController->run()
+#17 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#18 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#19 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CWebApplication->run()
+REQUEST_URI=/agenda/agenda/citas/index.php/Medicos
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/_especialidades.php (17)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/index.php (25)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (97)
+2013/03/07 15:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:40:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:45:31 [error] [php] Undefined variable: modelE (/Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/_list.php:19)
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(870): MedicosController->renderFile()
+#1 /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/index.php(32): MedicosController->renderPartial()
+#2 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(127): require()
+#3 /Library/WebServer/Documents/agenda/agenda/framework/web/CBaseController.php(96): MedicosController->renderInternal()
+#4 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(870): MedicosController->renderFile()
+#5 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(783): MedicosController->renderPartial()
+#6 /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php(97): MedicosController->render()
+#7 /Library/WebServer/Documents/agenda/agenda/framework/web/actions/CInlineAction.php(50): MedicosController->actionIndex()
+#8 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilterChain.php(134): MedicosController->runAction()
+#10 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php(36): RightsFilter->filter()
+#12 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CInlineFilter.php(59): MedicosController->filterRights()
+#13 /Library/WebServer/Documents/agenda/agenda/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#14 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(292): CFilterChain->run()
+#15 /Library/WebServer/Documents/agenda/agenda/framework/web/CController.php(266): MedicosController->runActionWithFilters()
+#16 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(283): MedicosController->run()
+#17 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#18 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#19 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CWebApplication->run()
+REQUEST_URI=/agenda/agenda/citas/index.php/Medicos
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/_list.php (19)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/views/site/medicos/index.php (32)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (97)
+2013/03/07 15:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 15:59:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:01:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:06:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:12:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "EspecialidadesMedicos/guardar"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('EspecialidadesM...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/EspecialidadesMedicos/guardar
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:40:23 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:40:26 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:40:27 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:40:28 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:40:35 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:42:30 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:43:58 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:44:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:44:35 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:45:05 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:45:23 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:45:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:45:56 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:47:22 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:47:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:50:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:53:55 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:54:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:54:11 [warning] [application] Failed to set unsafe attribute "id" of "Medicos".
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/components/Controller.php (50)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/controllers/MedicosController.php (120)
+in /Library/WebServer/Documents/agenda/agenda/citas/protected/modules/rights/components/RController.php (36)
+2013/03/07 16:57:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 16:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:12:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---
+2013/03/07 17:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/avatar.jpg"' in /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Library/WebServer/Documents/agenda/agenda/framework/web/CWebApplication.php(142): CWebApplication->runController('images/avatar.j...')
+#1 /Library/WebServer/Documents/agenda/agenda/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/agenda/agenda/citas/index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/agenda/agenda/citas/index.php/images/avatar.jpg
+HTTP_REFERER=http://localhost/agenda/agenda/citas/index.php/Medicos
+---

@@ -20,10 +20,16 @@ $this->breadcrumbs=array(
 		</div>
 		<!-- FIN Formulario -->
 		
+		<!-- Formulario style="display: none;"-->
+		<div id="formuDataE"  >
+			<?php $this->renderPartial('/site/'.strtolower($model).'/_especialidades', array('modelE'=>$modelE)); ?>
+		</div>
+		<!-- FIN Formulario -->
+		
 		<!-- Listado -->
 		<div id="listaData">
 			<div class="content noPad clearfix">
-				<?php $this->renderPartial('/site/'.strtolower($model).'/_list', array('widget'=>$widget, 'model'=>$model)); ?>
+				<?php $this->renderPartial('/site/'.strtolower($model).'/_list', array('widget'=>$widget, 'model'=>$model, 'modelE'=>$modelE)); ?>
 			</div>
 		</div>
 		<!-- FIN Listado -->

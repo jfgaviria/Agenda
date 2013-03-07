@@ -22,7 +22,8 @@ class MedicosController extends Controller
 	 */
 	public function actionIndex(){
 		try{
-			$model = $this->id;
+			$model  = $this->id;
+			$modelE = 'EspecialidadesMedicos';
 			
 			// Columns
 			$columns = array(
@@ -42,9 +43,15 @@ class MedicosController extends Controller
 					),
 					'buttons' => array(
 						'class' => 'ext.EDataTables.EButtonColumn',
-						'template' => '{editar} {eliminar}',
+						'template' => '{especialidades} {editar} {eliminar}',
 						'header' => Yii::t('app','Operaciones'),
 						'buttons' => array(
+							'especialidades' => array(
+								'label'=>'<span class="icon16 icomoon-icon-vcard white"></span>',
+								'imageUrl'=>false,
+								'url'=>'"javascript:especialidades(" . json_encode(array_merge($data->getAttributes(array("id", "nombre")), $data->especialidadesMedicosJSON())) . ")"',
+								'options'=>array('class'=>'btn btn-info btn-mini', 'title'=>'Especialidades'),
+							),
 							'editar' => array(
 								'label'=>'<span class="icon16 icomoon-icon-pencil white"></span>',
 								'imageUrl'=>false,
@@ -58,6 +65,7 @@ class MedicosController extends Controller
 								'options' => array('class'=>'btn btn-danger btn-mini', 'title'=>'Eliminar'),
 							),
 						),
+						'htmlOptions' => array('style'=>'width: 150px'),
 					),
 			);
 			// Criteria
@@ -86,7 +94,7 @@ class MedicosController extends Controller
 				if(isset($_GET['print']) && $_GET['print'] == 1){
 					ListadoModule::exportDataTable();
 				}else{
-					$this->render('/site/'.strtolower($model).'/index', array('widget'=>$widget, 'model'=>$model));
+					$this->render('/site/'.strtolower($model).'/index', array('widget'=>$widget, 'model'=>$model, 'modelE'=>$modelE));
 				}
 				return;
 			}else{

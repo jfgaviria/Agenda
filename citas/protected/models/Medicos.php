@@ -49,8 +49,8 @@ class Medicos extends CActiveRecord
 			array('estado', 'boolean'),
 			array('identificador', 'length', 'max'=>45),
 			array('nombre', 'length', 'max'=>100),
-			array('fe_nacimiento', 'date', 'format'=>'yyyy-M-d H:m:s'),
-			array('hr_inicio, hr_fin', 'type', 'type'=>'time', 'timeFormat'=>'hh:mm'),
+			array('fe_nacimiento', 'date', 'format'=>'yyyy-M-d'),
+			array('hr_inicio, hr_fin', 'type', 'type'=>'time', 'timeFormat'=>'hh:mm:ss'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, identificador, nombre, fe_nacimiento, hr_inicio, hr_fin, estado', 'safe', 'on'=>'search'),
@@ -108,5 +108,15 @@ class Medicos extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	public function especialidadesMedicosJSON(){
+		$data = array();
+		if(count($this->especialidadesMedicoses) > 0){
+			foreach ($this->especialidadesMedicoses AS $em){
+				$data[] = $em->getAttributes();
+			}
+		}
+		return $data;
 	}
 }
