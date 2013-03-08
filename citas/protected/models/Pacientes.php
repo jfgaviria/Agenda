@@ -42,10 +42,12 @@ class Pacientes extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, fe_nacimiento, telefono', 'required'),
+			array('identificador, nombre, fe_nacimiento, telefono', 'required'),
 			array('identificador', 'length', 'max'=>45),
 			array('nombre', 'length', 'max'=>100),
 			array('telefono', 'length', 'max'=>15),
+			array('identificador', 'unique', 'message'=>'Ya existe un paciente con este identificador'),
+			array('fe_nacimiento', 'date', 'format'=>'yyyy-M-d'),
 			array('observaciones', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

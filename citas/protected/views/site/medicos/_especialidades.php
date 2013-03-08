@@ -25,7 +25,7 @@
 		$fModule->beginForm($formId, $this);
 		
 		echo $fModule->setFormField($model, 'id_medico', 'hidden');
-		echo CHtml::activeListBox($model, 'id_especialidad', $especialidades, array('size'=>'6', 'multiple'=>'multiple'));
+		echo CHtml::activeListBox($model, 'id_especialidad', $especialidades, array('id'=>'id_especialidad', 'size'=>'6', 'multiple'=>'multiple'));
 
 		echo CHtml::htmlButton('Cancelar', array('id'=>$formId.'_cancel', 'class'=>'marginL10 btn btn-danger'));
 		echo CHtml::htmlButton('Guardar', array('id'=>$formId.'_guardar', 'class'=>'marginL10 btn btn-success'));
@@ -47,6 +47,29 @@
 		});
 
 		// Guardar Especialidades
+		$("#"+formIdE+"_guardar").click(function(){
+			if($("#id_especialidad").val() == null){
+				$("#error div.divAlerta").html('Debe seleccionar al menos una Especialidad');
+				$("#error").dialog("open"); return false;
+			}
+
+			$.post('<?php echo $url; ?>',{
+				id_medico: $("#id_medico").val(),
+				especialidades: $("#id_especialidad").val()
+			},function(response){
+				var data = $.parseJSON(response);
+
+				if(data.error){
+					$("#error div.divAlerta").html(data.error);
+					$("#error").dialog("open"); return false;
+				}
+				if(data.mensaje){
+					$("#mensaje div.divAlerta").html(data.mensaje);
+					$("#mensaje").dialog("open");
+					window.location.href = document.location.href;
+				}
+			});
+		});
 	});
 
 </script>

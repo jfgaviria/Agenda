@@ -574,6 +574,12 @@ $(document).ready(function() {
 			showOtherMonths:true
 		});
 	}
+	if($('.datefield').length) {
+		$(".datefield").datepicker({
+			showOtherMonths:true,
+			dateFormat: 'yy-mm-dd'
+		});
+	}
 	if($('#datepicker-inline').length) {
 		$('#datepicker-inline').datepicker({
 	        inline: true,

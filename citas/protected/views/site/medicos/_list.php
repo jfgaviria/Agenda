@@ -24,7 +24,7 @@
 			datos[iter] = val.id_especialidad;
 			iter++;
 		});
-		$("#EspecialidadesMedicos_id_especialidad").val(datos);
+		$("#id_especialidad").val(datos);
 
 		$(".switch").iButton({
 			 labelOn: "<span class='icon16 icomoon-icon-checkmark-2 white'></span>",
