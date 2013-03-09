@@ -70,6 +70,21 @@ $pacientes = CHtml::listData(Pacientes::model()->findAll(array('order'=>'nombre'
 									?>
 								</div>
 							</div>
+							<div class="row-fluid" id="rowDisponibilidad" style="display: none;">
+								<div class="grid-inputs span4">
+									<?php 
+										echo CHtml::label('Disponibilidad', 'fe_inicial');
+										echo CHtml::dropDownList('fe_inicial', '', array(), array('id'=>'fe_inicial', 'class'=>'select', 'prompt'=>'Seleccione...'));
+									?>
+								</div>
+							</div>
+							<div class="row-fluid" id="rowBotones" style="display: none;">
+								<div class="grid-inputs span4">
+									<?php 
+										echo CHtml::htmlButton('Guardar Cita', array('id'=>'guardar_cita', 'class'=>'btn btn-success marginT10'));
+									?>
+								</div>
+							</div>
 						</div>
 					</div>
 				</form>
@@ -81,6 +96,9 @@ $pacientes = CHtml::listData(Pacientes::model()->findAll(array('order'=>'nombre'
 
 <script type="text/javascript">
 	$(document).ready(function(){
+		$("#nueva_cita").click(function(){
+			window.location.href = document.location.href;
+		});
 		
 		$("#buscar_paciente").click(function(){
 			if($("#ds_paciente").val() == ''){
@@ -148,12 +166,41 @@ $pacientes = CHtml::listData(Pacientes::model()->findAll(array('order'=>'nombre'
 				}
 				if(data.mensaje){
 					if(data.mensaje == 'ok'){
+						$("#fe_inicial").html(data.html);
 						$("#rowDisponibilidad").fadeIn();
 					}else{
 						alert(data.mensaje); return false;
 					}
 				}
 			});
+		});
+
+		$("#fe_inicial").change(function(){
+			if($(this).val() != ''){
+				$("#rowBotones").fadeIn();
+			}else{
+				$("#rowBotones").hide();
+			}
+		});
+		
+		$("#guardar_cita").click(function(){
+			if(confirm('Esta seguro de querer agendar esta cita?')){
+				$.post('<?php echo CController::createUrl('Agenda/guardar'); ?>', {
+					id_paciente: $("#id_paciente").val(),
+					id_medico  : $("#id_medico").val(),
+					fe_inicial : $("#id_fecha").val() + " " + $("#fe_inicial").val()
+				}, function(response){
+					var data = $.parseJSON(response);
+
+					if(data.error){
+						alert(data.error); return false;
+					}
+					if(data.mensaje){
+						alert(data.mensaje);
+						window.location.href = document.location.href;
+					}
+				});
+			}
 		});
 		
 	});

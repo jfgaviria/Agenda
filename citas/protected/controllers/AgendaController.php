@@ -92,33 +92,42 @@ class AgendaController extends Controller
 		$post = $_POST;
 		
 		if(count($post) > 0){
-			$medico = Medicos::model()->findByPk($post['id_medico']);
 			$fecha  = explode('-', $post['id_fecha']);
+			
+			$wd = date('N', strtotime($post['id_fecha']));
+			if($wd == 6 || $wd == 7){
+				echo json_encode(array('error'=>'No se pueden asignar citas los fines de semana'));
+				Yii::app()->end();
+			}
+			
+			$medico = Medicos::model()->findByPk($post['id_medico']);
 			$agenda = Agenda::model()->findAll('id_medico=:id_medico 
 												AND YEAR(fe_inicial) = :year
 												AND MONTH(fe_inicial) = :month 
 												AND DAY(fe_inicial) = :day', 
 												array(':id_medico'=>$post['id_medico'], ':year'=>$fecha[0], ':month'=>$fecha[1], ':day'=>$fecha[2]));
+			$hrOcupadas = array();
+			if(count($agenda) > 0){
+				foreach($agenda AS $ag){
+					$hrOcupadas[strtotime($ag->fe_inicial)] = $ag->fe_inicial;
+				}
+			}
+			$hrOcupadas = array_keys($hrOcupadas);
 			
 			$horaInicial = strtotime(date("Y-m-d").' '.$medico->hr_inicio);
 			$horaFinal 	 = strtotime(date("Y-m-d").' '.$medico->hr_fin);
 			$horarios	 = array();
-			$excluir	 = false;
 			for($i = $horaInicial; $i < $horaFinal; $i += 1800){
-				if(count($agenda) > 0){
-					foreach($agenda AS $ag){
-						echo json_encode(array('error'=>print_r(strtotime($ag->fe_inicial) .'||'. $i, true)));
-						if(strtotime($ag->fe_inicial) == $i || strtotime($ag->fe_final) == $i){
-							$excluir = true;
-						}
-						$excluir = false;
-					}
-				}
-				if(!$excluir)
-					$horarios[] = date("H:i:s", $i);
+				if(!in_array($i, $hrOcupadas))
+					$horarios[date("H:i:s", $i)] = date("H:i:s", $i);
 			}
 			
-			echo json_encode(array('error'=>print_r($horarios, true)));
+			$options = CHtml::tag('option', array('value'=>''), CHtml::encode('Seleccione...'), true);
+			foreach($horarios AS $value=>$name){
+				$options .= CHtml::tag('option', array('value'=>$value), CHtml::encode($name), true);
+			}
+			
+			echo json_encode(array('mensaje'=>'ok', 'html'=>$options));
 		}else{
 			echo json_encode(array('error'=>'No se enviaron datos'));
 			Yii::app()->end();
@@ -133,16 +142,31 @@ class AgendaController extends Controller
 	 * @author juan.gaviria
 	 */
 	public function actionGuardar(){
-		parent::guardarDatos($_POST);
-	}
-	
-	/**
-	 * @name actionEliminar
-	 * Guardar Formulario
-	 *
-	 * @author juan.gaviria
-	 */
-	public function actionEliminar(){
-		parent::eliminarDatos($_POST);
+		$post = $_POST;
+		$post['fe_final'] = date('Y-m-d H:i:s', strtotime($post['fe_inicial']) + 1800);
+		
+		try{
+			$model = new Agenda;
+			$model->setAttributes($post);
+			
+			if($model->validate()){
+				if($model->save()){
+					echo json_encode(array('mensaje'=>'La cita se ha agendado correctamente.'));
+					Yii::app()->end();
+				}else{
+					echo json_encode(array('error'=>CHtml::errorSummary($model)));
+					Yii::app()->end();
+				}
+			}else{
+				echo json_encode(array('error'=>CHtml::errorSummary($model)));
+				Yii::app()->end();
+			}
+		}catch (CException $cex){
+			echo json_encode(array('error'=>$cex->getMessage()));
+		}catch (CHttpException $he){
+			echo json_encode(array('error'=>$he->getMessage()));
+		}catch (CDbException $dbe){
+			echo json_encode(array('error'=>$dbe->getMessage()));
+		}
 	}
 }	

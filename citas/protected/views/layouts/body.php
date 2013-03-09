@@ -29,7 +29,7 @@
                             <?php echo $divider; ?>
                         </li>
                         <?php 
-                        	echo '<li>' . implode('</li>'.$divider.'<li class="active">', $this->breadcrumbs) . '</li>';
+//                         	echo '<li>' . implode('</li>'.$divider.'<li class="active">', $this->breadcrumbs) . '</li>';
                         ?>
                     </ul>
 
