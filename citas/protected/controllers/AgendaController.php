@@ -53,7 +53,7 @@ class AgendaController extends Controller
 	
 	/**
 	 * @name actionBuscarMedico
-	 * Busca los mŽdicos por especialidad
+	 * Busca los mï¿½dicos por especialidad
 	 *
 	 * @author juan.gaviria
 	 */
@@ -114,12 +114,13 @@ class AgendaController extends Controller
 			}
 			$hrOcupadas = array_keys($hrOcupadas);
 			
-			$horaInicial = strtotime(date("Y-m-d").' '.$medico->hr_inicio);
-			$horaFinal 	 = strtotime(date("Y-m-d").' '.$medico->hr_fin);
+			$horaInicial = strtotime($post['id_fecha'].' '.$medico->hr_inicio);
+			$horaFinal 	 = strtotime($post['id_fecha'].' '.$medico->hr_fin);
 			$horarios	 = array();
 			for($i = $horaInicial; $i < $horaFinal; $i += 1800){
-				if(!in_array($i, $hrOcupadas))
+				if(!in_array($i, $hrOcupadas)){
 					$horarios[date("H:i:s", $i)] = date("H:i:s", $i);
+				}
 			}
 			
 			$options = CHtml::tag('option', array('value'=>''), CHtml::encode('Seleccione...'), true);
