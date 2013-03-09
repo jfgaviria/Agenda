@@ -61,7 +61,8 @@ class AgendaController extends Controller
 		$post = $_POST;
 		
 		if(count($post) > 0){
-			$medicos = EspecialidadesMedicos::model()->findAll('id_especialidad=:id_especialidad', array(':id_especialidad'=>$post['id_especialidad']));
+			$medicos = EspecialidadesMedicos::model()->with('idMedico')
+													->findAll('id_especialidad=:id_especialidad AND idMedico.estado=1', array(':id_especialidad'=>$post['id_especialidad']));
 
 			if(count($medicos) > 0){
 				$medicos = CHtml::listData($medicos, 'idMedico.id', 'idMedico.nombre');
