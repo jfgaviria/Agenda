@@ -11,7 +11,7 @@
  Target Server Version : 50166
  File Encoding         : utf-8
 
- Date: 03/08/2013 18:10:54 PM
+ Date: 03/08/2013 21:21:18 PM
 */
 
 SET NAMES utf8;
@@ -34,7 +34,7 @@ CREATE TABLE `cpt_AuthAssignment` (
 --  Records of `cpt_AuthAssignment`
 -- ----------------------------
 BEGIN;
-INSERT INTO `cpt_AuthAssignment` VALUES ('Admin', '1', null, 'N;');
+INSERT INTO `cpt_AuthAssignment` VALUES ('Admin', '1', null, 'N;'), ('Admin', '3', null, 'N;'), ('Callcenter', '4', null, 'N;');
 COMMIT;
 
 -- ----------------------------
@@ -54,7 +54,7 @@ CREATE TABLE `cpt_AuthItem` (
 --  Records of `cpt_AuthItem`
 -- ----------------------------
 BEGIN;
-INSERT INTO `cpt_AuthItem` VALUES ('Admin', '2', 'Super Usuario', null, 'N;'), ('Callcenter', '2', 'Operario de Call Center', null, 'N;'), ('Escritorio.*', '1', null, null, 'N;'), ('Escritorio.Contact', '0', null, null, 'N;'), ('Escritorio.Error', '0', null, null, 'N;'), ('Escritorio.Index', '0', null, null, 'N;'), ('Escritorio.Login', '0', null, null, 'N;'), ('Escritorio.Logout', '0', null, null, 'N;'), ('Formulario.Default.*', '1', null, null, 'N;'), ('Formulario.Default.Index', '0', null, null, 'N;'), ('Geocoder.Default.*', '1', null, null, 'N;'), ('Geocoder.Default.Index', '0', null, null, 'N;'), ('Guest', '2', 'Usuario no Autenticado', null, 'N;'), ('Listado.Default.*', '1', null, null, 'N;'), ('Listado.Default.Index', '0', null, null, 'N;'), ('Menu.Default.*', '1', null, null, 'N;'), ('Menu.Default.Index', '0', null, null, 'N;'), ('Menu.Default.MenuItems', '0', null, null, 'N;'), ('User.Activation.*', '1', null, null, 'N;'), ('User.Activation.Activation', '0', null, null, 'N;'), ('User.Admin.*', '1', null, null, 'N;'), ('User.Admin.Admin', '0', null, null, 'N;'), ('User.Admin.Create', '0', null, null, 'N;'), ('User.Admin.Delete', '0', null, null, 'N;'), ('User.Admin.Update', '0', null, null, 'N;'), ('User.Admin.View', '0', null, null, 'N;'), ('User.Default.*', '1', null, null, 'N;'), ('User.Default.Index', '0', null, null, 'N;'), ('User.Login.*', '1', null, null, 'N;'), ('User.Login.Login', '0', null, null, 'N;'), ('User.Logout.*', '1', null, null, 'N;'), ('User.Logout.Logout', '0', null, null, 'N;'), ('User.Profile.*', '1', null, null, 'N;'), ('User.Profile.Changepassword', '0', null, null, 'N;'), ('User.Profile.Edit', '0', null, null, 'N;'), ('User.Profile.Profile', '0', null, null, 'N;'), ('User.ProfileField.*', '1', null, null, 'N;'), ('User.ProfileField.Admin', '0', null, null, 'N;'), ('User.ProfileField.Create', '0', null, null, 'N;'), ('User.ProfileField.Delete', '0', null, null, 'N;'), ('User.ProfileField.Update', '0', null, null, 'N;'), ('User.ProfileField.View', '0', null, null, 'N;'), ('User.Recovery.*', '1', null, null, 'N;'), ('User.Recovery.Recovery', '0', null, null, 'N;'), ('User.Registration.*', '1', null, null, 'N;'), ('User.Registration.Registration', '0', null, null, 'N;'), ('User.User.*', '1', null, null, 'N;'), ('User.User.Index', '0', null, null, 'N;'), ('User.User.View', '0', null, null, 'N;');
+INSERT INTO `cpt_AuthItem` VALUES ('Admin', '2', 'Super Usuario', null, 'N;'), ('Agenda.*', '1', null, null, 'N;'), ('Agenda.BuscarDisponibilidad', '0', null, null, 'N;'), ('Agenda.BuscarMedico', '0', null, null, 'N;'), ('Agenda.BuscarPaciente', '0', null, null, 'N;'), ('Agenda.Guardar', '0', null, null, 'N;'), ('Agenda.Index', '0', null, null, 'N;'), ('Callcenter', '2', 'Operario de Call Center', null, 'N;'), ('Escritorio.*', '1', null, null, 'N;'), ('Escritorio.Contact', '0', null, null, 'N;'), ('Escritorio.Error', '0', null, null, 'N;'), ('Escritorio.Index', '0', null, null, 'N;'), ('Escritorio.Login', '0', null, null, 'N;'), ('Escritorio.Logout', '0', null, null, 'N;'), ('Especialidades.*', '1', null, null, 'N;'), ('Especialidades.Eliminar', '0', null, null, 'N;'), ('Especialidades.Guardar', '0', null, null, 'N;'), ('Especialidades.Index', '0', null, null, 'N;'), ('EspecialidadesMedicos.*', '1', null, null, 'N;'), ('EspecialidadesMedicos.Eliminar', '0', null, null, 'N;'), ('EspecialidadesMedicos.Guardar', '0', null, null, 'N;'), ('Formulario.Default.*', '1', null, null, 'N;'), ('Formulario.Default.Index', '0', null, null, 'N;'), ('Geocoder.Default.*', '1', null, null, 'N;'), ('Geocoder.Default.Index', '0', null, null, 'N;'), ('Guest', '2', 'Usuario no Autenticado', null, 'N;'), ('Listado.Default.*', '1', null, null, 'N;'), ('Listado.Default.Index', '0', null, null, 'N;'), ('Medicos.*', '1', null, null, 'N;'), ('Medicos.Eliminar', '0', null, null, 'N;'), ('Medicos.Guardar', '0', null, null, 'N;'), ('Medicos.Index', '0', null, null, 'N;'), ('Menu.Default.*', '1', null, null, 'N;'), ('Menu.Default.Index', '0', null, null, 'N;'), ('Menu.Default.MenuItems', '0', null, null, 'N;'), ('Pacientes.*', '1', null, null, 'N;'), ('Pacientes.Eliminar', '0', null, null, 'N;'), ('Pacientes.Guardar', '0', null, null, 'N;'), ('Pacientes.Index', '0', null, null, 'N;'), ('User.Activation.*', '1', null, null, 'N;'), ('User.Activation.Activation', '0', null, null, 'N;'), ('User.Admin.*', '1', null, null, 'N;'), ('User.Admin.Admin', '0', null, null, 'N;'), ('User.Admin.Create', '0', null, null, 'N;'), ('User.Admin.Delete', '0', null, null, 'N;'), ('User.Admin.Update', '0', null, null, 'N;'), ('User.Admin.View', '0', null, null, 'N;'), ('User.Default.*', '1', null, null, 'N;'), ('User.Default.Index', '0', null, null, 'N;'), ('User.Login.*', '1', null, null, 'N;'), ('User.Login.Login', '0', null, null, 'N;'), ('User.Logout.*', '1', null, null, 'N;'), ('User.Logout.Logout', '0', null, null, 'N;'), ('User.Profile.*', '1', null, null, 'N;'), ('User.Profile.Changepassword', '0', null, null, 'N;'), ('User.Profile.Edit', '0', null, null, 'N;'), ('User.Profile.Profile', '0', null, null, 'N;'), ('User.ProfileField.*', '1', null, null, 'N;'), ('User.ProfileField.Admin', '0', null, null, 'N;'), ('User.ProfileField.Create', '0', null, null, 'N;'), ('User.ProfileField.Delete', '0', null, null, 'N;'), ('User.ProfileField.Update', '0', null, null, 'N;'), ('User.ProfileField.View', '0', null, null, 'N;'), ('User.Recovery.*', '1', null, null, 'N;'), ('User.Recovery.Recovery', '0', null, null, 'N;'), ('User.Registration.*', '1', null, null, 'N;'), ('User.Registration.Registration', '0', null, null, 'N;'), ('User.User.*', '1', null, null, 'N;'), ('User.User.Index', '0', null, null, 'N;'), ('User.User.View', '0', null, null, 'N;');
 COMMIT;
 
 -- ----------------------------
@@ -74,7 +74,7 @@ CREATE TABLE `cpt_AuthItemChild` (
 --  Records of `cpt_AuthItemChild`
 -- ----------------------------
 BEGIN;
-INSERT INTO `cpt_AuthItemChild` VALUES ('Guest', 'User.Activation.*'), ('Guest', 'User.Login.*'), ('Guest', 'User.Login.Login'), ('Guest', 'User.Logout.*'), ('Guest', 'User.Logout.Logout'), ('Guest', 'User.Profile.Changepassword'), ('Guest', 'User.Recovery.Recovery'), ('Guest', 'User.Registration.*'), ('Guest', 'User.Registration.Registration');
+INSERT INTO `cpt_AuthItemChild` VALUES ('Callcenter', 'Agenda.*'), ('Callcenter', 'Agenda.BuscarDisponibilidad'), ('Callcenter', 'Agenda.BuscarMedico'), ('Callcenter', 'Agenda.BuscarPaciente'), ('Callcenter', 'Agenda.Guardar'), ('Callcenter', 'Agenda.Index'), ('Callcenter', 'Escritorio.*'), ('Callcenter', 'Escritorio.Contact'), ('Callcenter', 'Escritorio.Error'), ('Callcenter', 'Escritorio.Index'), ('Callcenter', 'Escritorio.Login'), ('Callcenter', 'Escritorio.Logout'), ('Callcenter', 'Formulario.Default.Index'), ('Callcenter', 'Listado.Default.Index'), ('Callcenter', 'Pacientes.Guardar'), ('Callcenter', 'Pacientes.Index'), ('Callcenter', 'User.Activation.*'), ('Guest', 'User.Activation.*'), ('Callcenter', 'User.Login.*'), ('Guest', 'User.Login.*'), ('Callcenter', 'User.Login.Login'), ('Guest', 'User.Login.Login'), ('Callcenter', 'User.Logout.*'), ('Guest', 'User.Logout.*'), ('Callcenter', 'User.Logout.Logout'), ('Guest', 'User.Logout.Logout'), ('Callcenter', 'User.Profile.Changepassword'), ('Guest', 'User.Profile.Changepassword'), ('Callcenter', 'User.Recovery.Recovery'), ('Guest', 'User.Recovery.Recovery'), ('Callcenter', 'User.Registration.*'), ('Guest', 'User.Registration.*'), ('Callcenter', 'User.Registration.Registration'), ('Guest', 'User.Registration.Registration');
 COMMIT;
 
 -- ----------------------------
@@ -104,13 +104,13 @@ CREATE TABLE `cpt_agenda` (
   KEY `fk_cpt_agenda_cpt_medicos1_idx` (`id_medico`),
   CONSTRAINT `fk_cpt_agenda_cpt_medicos1` FOREIGN KEY (`id_medico`) REFERENCES `cpt_medicos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_cpt_agenda_cpt_pacientes1` FOREIGN KEY (`id_paciente`) REFERENCES `cpt_pacientes` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 --  Records of `cpt_agenda`
 -- ----------------------------
 BEGIN;
-INSERT INTO `cpt_agenda` VALUES ('1', '1', '1', '2013-03-08 08:30:00', '2013-03-08 09:00:00'), ('2', '2', '1', '2013-03-08 09:00:00', '2013-03-08 09:30:00'), ('3', '1', '1', '2013-03-08 11:00:00', '2013-03-08 11:30:00');
+INSERT INTO `cpt_agenda` VALUES ('1', '1', '1', '2013-03-08 08:30:00', '2013-03-08 09:00:00'), ('2', '2', '1', '2013-03-08 09:00:00', '2013-03-08 09:30:00'), ('3', '1', '1', '2013-03-08 11:00:00', '2013-03-08 11:30:00'), ('4', '1', '1', '2013-03-08 13:00:00', '2013-03-08 13:30:00');
 COMMIT;
 
 -- ----------------------------
@@ -141,8 +141,8 @@ CREATE TABLE `cpt_especialidades_medicos` (
   PRIMARY KEY (`id`),
   KEY `fk_cpt_especialidades_medicos_cpt_medicos1_idx` (`id_medico`),
   KEY `fk_cpt_especialidades_medicos_cpt_especialidades1_idx` (`id_especialidad`),
-  CONSTRAINT `fk_cpt_especialidades_medicos_cpt_medicos1` FOREIGN KEY (`id_medico`) REFERENCES `cpt_medicos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_cpt_especialidades_medicos_cpt_especialidades1` FOREIGN KEY (`id_especialidad`) REFERENCES `cpt_especialidades` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `fk_cpt_especialidades_medicos_cpt_especialidades1` FOREIGN KEY (`id_especialidad`) REFERENCES `cpt_especialidades` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_cpt_especialidades_medicos_cpt_medicos1` FOREIGN KEY (`id_medico`) REFERENCES `cpt_medicos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
@@ -165,7 +165,7 @@ CREATE TABLE `cpt_medicos` (
   `hr_fin` time NOT NULL,
   `estado` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 --  Records of `cpt_medicos`
@@ -230,13 +230,13 @@ CREATE TABLE `cpt_profiles` (
   `firstname` varchar(50) NOT NULL DEFAULT '',
   PRIMARY KEY (`user_id`),
   CONSTRAINT `user_profile_id0` FOREIGN KEY (`user_id`) REFERENCES `cpt_users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 --  Records of `cpt_profiles`
 -- ----------------------------
 BEGIN;
-INSERT INTO `cpt_profiles` VALUES ('1', 'Gaviria S.', 'Juan Fernando'), ('2', 'Auditor', 'Usuario');
+INSERT INTO `cpt_profiles` VALUES ('1', 'Gaviria S.', 'Juan Fernando'), ('2', 'Auditor', 'Usuario'), ('3', 'csuarez', 'csuarez'), ('4', 'cmora', 'cmora');
 COMMIT;
 
 -- ----------------------------
@@ -290,13 +290,13 @@ CREATE TABLE `cpt_users` (
   UNIQUE KEY `email` (`email`),
   KEY `status` (`status`),
   KEY `superuser` (`superuser`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 --  Records of `cpt_users`
 -- ----------------------------
 BEGIN;
-INSERT INTO `cpt_users` VALUES ('1', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'juan.gaviria@sevensense.co', 'a38c7e9ec986ae28082f54ee2d3a72bb', '2012-10-19 14:34:08', '2013-03-08 09:43:49', '1', '1'), ('2', 'demo', 'fe01ce2a7fbac8fafaed7c982a04e229', 'demo@example.com', '099f825543f7850cc038b90aaff39fac', '2012-10-19 14:34:08', '2012-12-29 00:50:19', '0', '1');
+INSERT INTO `cpt_users` VALUES ('1', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'juan.gaviria@sevensense.co', 'a38c7e9ec986ae28082f54ee2d3a72bb', '2012-10-19 14:34:08', '2013-03-08 21:16:02', '1', '1'), ('2', 'demo', 'fe01ce2a7fbac8fafaed7c982a04e229', 'demo@example.com', '099f825543f7850cc038b90aaff39fac', '2012-10-19 14:34:08', '2012-12-29 00:50:19', '0', '1'), ('3', 'csuarez', 'ee9fa3c5665ac2f3c4d3c794f1d9c9f3', 'csuarez@smdigital.com', 'fc46731e32d5e3e80a7dcd85135a055b', '2013-03-08 21:10:34', '2013-03-08 21:13:19', '1', '1'), ('4', 'cmora', '7d89b2ba48d0352e51a3d62ac893ae96', 'cmora@smdigital.com', 'b025b42f0f2a49ccc72023f847a096c6', '2013-03-08 21:11:03', '2013-03-08 21:15:24', '0', '1');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
